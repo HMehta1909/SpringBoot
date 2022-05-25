@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloSpringBootDockerApplication {
 
-	@GetMapping("/welcome")
+	@GetMapping("")
 	public String welcome() {
 		return "Spring Boot Docker Demo";
 	}
